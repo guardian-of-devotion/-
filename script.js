@@ -5,7 +5,7 @@
     var nextButton = document.querySelector('.next-on-two');    
 
     var isModalOpen = false;
-    var pageYOffset = 0; //отключение в родительском приложении
+    var pageYOffset = 0; 
   
     var openModal = function(){
       pageYOffset = window.pageYOffset;
@@ -38,8 +38,6 @@
     var modal = document.querySelector('.modal-container-2');
     var closeButton = document.querySelector('.close-2');
     var modalTriggers = document.querySelectorAll('[data-trigger-2]');
-    var nextButton = document.querySelector('.next-on-three');
-    var backButton = document.querySelector('.back-on-one');
 
     var isModalOpen = false;
     var pageYOffset = 0;
@@ -76,8 +74,6 @@
     var modal = document.querySelector('.modal-container-3');
     var closeButton = document.querySelector('.close-3');
     var modalTriggers = document.querySelectorAll('[data-trigger-3]');
-    var nextButton = document.querySelector('.next-on-three');
-    var backButton = document.querySelector('.back-on-one');
 
     var isModalOpen = false;
     var pageYOffset = 0;
